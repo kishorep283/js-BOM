@@ -1,0 +1,44 @@
+.item {
+    background-color: cyan;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 1.3rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin: 10px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    background-color: purple;
+    padding: 20px;
+}
+.btn{
+    padding:20px;
+    background-color: yellow;
+}
+#header{
+    width:20%;
+    border-radius: 10px;
+}
+img{
+    width:200px;
+}
+.delete{
+    padding:10px;
+}
+@media screen and (max-width:750px) {
+    .container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #header{
+        width:50%;
+    }
+    
+}
